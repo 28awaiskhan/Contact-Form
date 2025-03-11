@@ -1,0 +1,94 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+    color: white;
+    height: 500px;
+}
+
+h2 {
+    /* margin-bottom: 30px; */
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+    background: rgba(255, 255, 255, 0.8);
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    background: white;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #fff;
+    background: linear-gradient(135deg, #667eea, #764ba2);;
+
+    color: #fff;
+    /* border: none; */
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    /* background: #ff4757; */
+    transform: translateY(-2px);
+}
+
+#responseMessage {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+#name, #email, #message, #number {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
